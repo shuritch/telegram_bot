@@ -1,4 +1,21 @@
-# telegram_bot
-Психолингвистический анализ человека по его переписке в Telegram.
-Бот реализован для проекта "психолингвистический анализ человека по переписке в Telegram".
-Участники: Иванов Александр Дмитриевич (Б21-514), Жданкин Максим Иванович (Б21-524)
+<h1 align="center">Психолингвистический анализ переписки в Telegram.</h1>
+
+Бот реализован для проекта "Психолингвистический анализ переписки в Telegram".
+
+<h2>Preparing</h2>
+
+Generate token in telegram bot father
+Past it in index.js
+
+```js
+const e = require('express');
+const TelegramApi = require('node-telegram-bot-api');
+const token = 'your-bot-token';
+```
+
+<h2 align="center">USAGE</h2>
+
+```bash
+  npm i
+  node index.js
+```
